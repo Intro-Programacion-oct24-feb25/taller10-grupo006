@@ -5,10 +5,16 @@
  */
 package paquete4;
 
+import java.util.Scanner;
+
 /**
  *
  * @author reroes
  */
 public class Problema04 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        
     
+    }
 }
