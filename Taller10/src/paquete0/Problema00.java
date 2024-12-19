@@ -16,6 +16,7 @@ public class Problema00 {
                             {7, 9.4, 10, 9}};
         String[] nombresEstudiante = {"Jose A", "Elena J", "Paúl L"};
         double[] sumaNotas = new double[3];
+        double[] promedios = new double[3];
                             
         double suma = 0;
         String reporte = "";
@@ -24,9 +25,12 @@ public class Problema00 {
             
             for (int j = 0; j < notas[i].length; j++) { 
                 suma = suma + notas[i][j];
+                
+                
                      
             }
-            sumaNotas[i] = suma; // 
+            sumaNotas[i] = suma;
+                promedios [i] = sumaNotas[i]/4; 
         }
         
         // Presentación de resultados
@@ -35,7 +39,7 @@ public class Problema00 {
                     + "de notas: %.3f\n",
                     reporte,
                     nombresEstudiante[i],
-                    sumaNotas[i]);
+                    promedios[i]);
         }
         
         System.out.printf("%s\n", reporte);
