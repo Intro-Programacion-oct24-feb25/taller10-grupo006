@@ -52,7 +52,7 @@ public class Problema03 {
 
         }
         for (int i = 0; i < notasCuantitativas.length; i++) {
-            cadena = String.format("%sel promedio es: %.2f "
+            cadena = String.format("%sEl promedio es: %.2f "
                     + "y nota cualitativa es: %s\n",
                     cadena,
                     promedio[i],
