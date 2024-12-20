@@ -58,6 +58,6 @@ public class Problema08 {
             }
             cadena = String.format("%s\n", cadena);
         }
-        System.out.printf("%s", cadena);
+        System.out.printf("%s\n", cadena);
     }
 }

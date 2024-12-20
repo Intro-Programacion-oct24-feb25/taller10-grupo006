@@ -32,7 +32,7 @@ public class Problema06 {
             }
         }
         
-        System.out.printf("%s", cadena);
+        System.out.printf("%s\n", cadena);
         
     }
 }
